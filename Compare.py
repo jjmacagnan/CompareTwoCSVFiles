@@ -1,8 +1,8 @@
-f1 = open("metadata_DDSM.csv").readlines()
-f2 = open("ddsm_all.csv").readlines()
+f1 = open("mass_case_description_test_set.csv").readlines()
+f2 = open("output_ddsm_all.csv").readlines()
 
 
-file = open('ddsm.csv', 'a')
+file = open('output_mass_test_set.csv', 'a')
 for row1 in f1:
     # print(row1[:7])
     for row2 in f2:
