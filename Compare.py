@@ -1,12 +1,12 @@
-f1 = open("metadata_mammoset.csv").readlines()
-f2 = open("output_ddsm_all.csv").readlines()
+f1 = open("tests1.csv").readlines()
+f2 = open("tests2.csv").readlines()
 
 
-file = open('output.csv', 'a')
+file = open('edge_histogram.csv', 'a')
 for row1 in f1:
     # print(row1[:7])
     for row2 in f2:
         # print(row2[:7])
-        if row1[:11] == row2[:11]:
+        if row1[:19] == row2[:19]:
             # print(row1)
             file.write(row2)
