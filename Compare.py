@@ -3,7 +3,7 @@ import os
 original_files_path = 'original_files'
 compared_files_path = 'compared_files'
 
-f1 = open("AND_test_metadata_mammoset_ddsm_birads_class_7.csv").readlines()
+f1 = open("OR_test_metadata_mammoset_ddsm_pathology_class_6.csv").readlines()
 
 files = os.listdir(original_files_path)
 
